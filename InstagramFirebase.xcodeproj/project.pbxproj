@@ -16,6 +16,7 @@
 		B569EA751E7D5D5A0018973A /* FirebaseUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA721E7D5D590018973A /* FirebaseUtils.swift */; };
 		B569EA761E7D5D5A0018973A /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA731E7D5D5A0018973A /* CustomImageView.swift */; };
 		B569EA771E7D5D5A0018973A /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA741E7D5D5A0018973A /* Extensions.swift */; };
+		B569EA7A1E82A4160018973A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B569EA791E82A4160018973A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		B569EA721E7D5D590018973A /* FirebaseUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirebaseUtils.swift; sourceTree = "<group>"; };
 		B569EA731E7D5D5A0018973A /* CustomImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		B569EA741E7D5D5A0018973A /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		B569EA791E82A4160018973A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +72,7 @@
 				B52F9A342B98246300952C90 /* Assets.xcassets */,
 				B52F9A362B98246300952C90 /* LaunchScreen.storyboard */,
 				B52F9A392B98246300952C90 /* Info.plist */,
+				B569EA791E82A4160018973A /* GoogleService-Info.plist */,
 			);
 			path = InstagramFirebase;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B52F9A382B98246300952C90 /* LaunchScreen.storyboard in Resources */,
+				B569EA7A1E82A4160018973A /* GoogleService-Info.plist in Resources */,
 				B52F9A352B98246300952C90 /* Assets.xcassets in Resources */,
 				B52F9A332B98246300952C90 /* Main.storyboard in Resources */,
 			);
