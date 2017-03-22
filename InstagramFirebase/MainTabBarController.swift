@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  InstagramFirebase
 //
-//  Created by Cláudio Paulo on 3/18/17.
+//  Created by Cláudio Paulo on 3/22/17.
 //  Copyright © 2017 OmegaWare, Lda. All rights reserved.
 //
 
