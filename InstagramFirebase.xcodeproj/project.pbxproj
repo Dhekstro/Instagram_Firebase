@@ -19,6 +19,7 @@
 		B569EA7A1E82A4160018973A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B569EA791E82A4160018973A /* GoogleService-Info.plist */; };
 		B569EA7F1E82A4DA0018973A /* UserProfileController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA7D1E82A4DA0018973A /* UserProfileController.swift */; };
 		B569EA801E82A4DA0018973A /* UserProfileHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA7E1E82A4DA0018973A /* UserProfileHeader.swift */; };
+		B569EA841E85496D0018973A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA831E85496D0018973A /* LoginController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		B569EA791E82A4160018973A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B569EA7D1E82A4DA0018973A /* UserProfileController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileController.swift; sourceTree = "<group>"; };
 		B569EA7E1E82A4DA0018973A /* UserProfileHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileHeader.swift; sourceTree = "<group>"; };
+		B569EA831E85496D0018973A /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 		B52F9A422B98246300952C90 /* Login */ = {
 			isa = PBXGroup;
 			children = (
+				B569EA831E85496D0018973A /* LoginController.swift */,
 				B569EA6E1E7D5CD40018973A /* SignUpController.swift */,
 			);
 			path = Login;
@@ -184,6 +187,7 @@
 				B569EA771E7D5D5A0018973A /* Extensions.swift in Sources */,
 				B52F9A302B98246300952C90 /* MainTabBarController.swift in Sources */,
 				B569EA801E82A4DA0018973A /* UserProfileHeader.swift in Sources */,
+				B569EA841E85496D0018973A /* LoginController.swift in Sources */,
 				B52F9A2C2B98246300952C90 /* AppDelegate.swift in Sources */,
 				B569EA7F1E82A4DA0018973A /* UserProfileController.swift in Sources */,
 				B569EA6F1E7D5CD40018973A /* SignUpController.swift in Sources */,
