@@ -22,6 +22,7 @@
 		B569EA841E85496D0018973A /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA831E85496D0018973A /* LoginController.swift */; };
 		B569EA891E8D28610018973A /* PhotoSelectorController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA871E8D28610018973A /* PhotoSelectorController.swift */; };
 		B569EA8A1E8D28610018973A /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA881E8D28610018973A /* PhotoSelectorCell.swift */; };
+		B569EA8D1E8D28BF0018973A /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA8C1E8D28BF0018973A /* PhotoSelectorHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		B569EA831E85496D0018973A /* LoginController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
 		B569EA871E8D28610018973A /* PhotoSelectorController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorController.swift; sourceTree = "<group>"; };
 		B569EA881E8D28610018973A /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
+		B569EA8C1E8D28BF0018973A /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 			children = (
 				B569EA881E8D28610018973A /* PhotoSelectorCell.swift */,
 				B569EA871E8D28610018973A /* PhotoSelectorController.swift */,
+				B569EA8C1E8D28BF0018973A /* PhotoSelectorHeader.swift */,
 			);
 			path = AddPhoto;
 			sourceTree = "<group>";
@@ -197,6 +200,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B569EA8D1E8D28BF0018973A /* PhotoSelectorHeader.swift in Sources */,
 				B569EA8A1E8D28610018973A /* PhotoSelectorCell.swift in Sources */,
 				B569EA751E7D5D5A0018973A /* FirebaseUtils.swift in Sources */,
 				B569EA771E7D5D5A0018973A /* Extensions.swift in Sources */,
