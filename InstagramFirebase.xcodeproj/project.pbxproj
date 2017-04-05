@@ -24,6 +24,7 @@
 		B569EA8A1E8D28610018973A /* PhotoSelectorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA881E8D28610018973A /* PhotoSelectorCell.swift */; };
 		B569EA8D1E8D28BF0018973A /* PhotoSelectorHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA8C1E8D28BF0018973A /* PhotoSelectorHeader.swift */; };
 		B569EA901E8FCC920018973A /* SharePhotoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA8F1E8FCC920018973A /* SharePhotoController.swift */; };
+		B569EA941E911EE90018973A /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA931E911EE90018973A /* Post.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		B569EA881E8D28610018973A /* PhotoSelectorCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorCell.swift; sourceTree = "<group>"; };
 		B569EA8C1E8D28BF0018973A /* PhotoSelectorHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoSelectorHeader.swift; sourceTree = "<group>"; };
 		B569EA8F1E8FCC920018973A /* SharePhotoController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SharePhotoController.swift; sourceTree = "<group>"; };
+		B569EA931E911EE90018973A /* Post.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +80,7 @@
 		B52F9A2A2B98246300952C90 /* InstagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				B569EA921E911ED90018973A /* Models */,
 				B569EA861E8D284E0018973A /* AddPhoto */,
 				B52F9A422B98246300952C90 /* Login */,
 				B569EA7C1E82A4BD0018973A /* UserProfile */,
@@ -130,6 +133,14 @@
 				B569EA8F1E8FCC920018973A /* SharePhotoController.swift */,
 			);
 			path = AddPhoto;
+			sourceTree = "<group>";
+		};
+		B569EA921E911ED90018973A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B569EA931E911EE90018973A /* Post.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,6 +219,7 @@
 				B569EA751E7D5D5A0018973A /* FirebaseUtils.swift in Sources */,
 				B569EA771E7D5D5A0018973A /* Extensions.swift in Sources */,
 				B52F9A302B98246300952C90 /* MainTabBarController.swift in Sources */,
+				B569EA941E911EE90018973A /* Post.swift in Sources */,
 				B569EA801E82A4DA0018973A /* UserProfileHeader.swift in Sources */,
 				B569EA841E85496D0018973A /* LoginController.swift in Sources */,
 				B52F9A2C2B98246300952C90 /* AppDelegate.swift in Sources */,
