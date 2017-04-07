@@ -28,6 +28,7 @@
 		B569EA9A1E9666100018973A /* HomePostCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA971E96660E0018973A /* HomePostCell.swift */; };
 		B569EA9B1E9666100018973A /* CommentInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA981E96660F0018973A /* CommentInputAccessoryView.swift */; };
 		B569EA9C1E9666100018973A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA991E9666100018973A /* HomeController.swift */; };
+		B569EA9F1E97B99A0018973A /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA9E1E97B99A0018973A /* UserProfilePhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		B569EA971E96660E0018973A /* HomePostCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePostCell.swift; sourceTree = "<group>"; };
 		B569EA981E96660F0018973A /* CommentInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentInputAccessoryView.swift; sourceTree = "<group>"; };
 		B569EA991E9666100018973A /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B569EA9E1E97B99A0018973A /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 			children = (
 				B569EA7D1E82A4DA0018973A /* UserProfileController.swift */,
 				B569EA7E1E82A4DA0018973A /* UserProfileHeader.swift */,
+				B569EA9E1E97B99A0018973A /* UserProfilePhotoCell.swift */,
 			);
 			path = UserProfile;
 			sourceTree = "<group>";
@@ -248,6 +251,7 @@
 				B569EA761E7D5D5A0018973A /* CustomImageView.swift in Sources */,
 				B569EA891E8D28610018973A /* PhotoSelectorController.swift in Sources */,
 				B569EA9A1E9666100018973A /* HomePostCell.swift in Sources */,
+				B569EA9F1E97B99A0018973A /* UserProfilePhotoCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
