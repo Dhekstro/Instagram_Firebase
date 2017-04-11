@@ -29,6 +29,7 @@
 		B569EA9B1E9666100018973A /* CommentInputAccessoryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA981E96660F0018973A /* CommentInputAccessoryView.swift */; };
 		B569EA9C1E9666100018973A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA991E9666100018973A /* HomeController.swift */; };
 		B569EA9F1E97B99A0018973A /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA9E1E97B99A0018973A /* UserProfilePhotoCell.swift */; };
+		B569EAA21E9CFFF70018973A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAA11E9CFFF70018973A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		B569EA981E96660F0018973A /* CommentInputAccessoryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentInputAccessoryView.swift; sourceTree = "<group>"; };
 		B569EA991E9666100018973A /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		B569EA9E1E97B99A0018973A /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
+		B569EAA11E9CFFF70018973A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +151,7 @@
 			isa = PBXGroup;
 			children = (
 				B569EA931E911EE90018973A /* Post.swift */,
+				B569EAA11E9CFFF70018973A /* User.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -252,6 +255,7 @@
 				B569EA891E8D28610018973A /* PhotoSelectorController.swift in Sources */,
 				B569EA9A1E9666100018973A /* HomePostCell.swift in Sources */,
 				B569EA9F1E97B99A0018973A /* UserProfilePhotoCell.swift in Sources */,
+				B569EAA21E9CFFF70018973A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
