@@ -30,6 +30,8 @@
 		B569EA9C1E9666100018973A /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA991E9666100018973A /* HomeController.swift */; };
 		B569EA9F1E97B99A0018973A /* UserProfilePhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EA9E1E97B99A0018973A /* UserProfilePhotoCell.swift */; };
 		B569EAA21E9CFFF70018973A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAA11E9CFFF70018973A /* User.swift */; };
+		B569EAA71E9FA57F0018973A /* UserSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAA51E9FA57F0018973A /* UserSearchController.swift */; };
+		B569EAA81E9FA57F0018973A /* UserSearchCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAA61E9FA57F0018973A /* UserSearchCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +60,8 @@
 		B569EA991E9666100018973A /* HomeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
 		B569EA9E1E97B99A0018973A /* UserProfilePhotoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfilePhotoCell.swift; sourceTree = "<group>"; };
 		B569EAA11E9CFFF70018973A /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		B569EAA51E9FA57F0018973A /* UserSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchController.swift; sourceTree = "<group>"; };
+		B569EAA61E9FA57F0018973A /* UserSearchCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserSearchCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +94,7 @@
 		B52F9A2A2B98246300952C90 /* InstagramFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				B569EAA41E9FA5500018973A /* Search */,
 				B569EA961E9665EB0018973A /* Home */,
 				B569EA921E911ED90018973A /* Models */,
 				B569EA861E8D284E0018973A /* AddPhoto */,
@@ -164,6 +169,15 @@
 				B569EA971E96660E0018973A /* HomePostCell.swift */,
 			);
 			path = Home;
+			sourceTree = "<group>";
+		};
+		B569EAA41E9FA5500018973A /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				B569EAA61E9FA57F0018973A /* UserSearchCell.swift */,
+				B569EAA51E9FA57F0018973A /* UserSearchController.swift */,
+			);
+			path = Search;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -247,6 +261,7 @@
 				B569EA801E82A4DA0018973A /* UserProfileHeader.swift in Sources */,
 				B569EA9C1E9666100018973A /* HomeController.swift in Sources */,
 				B569EA841E85496D0018973A /* LoginController.swift in Sources */,
+				B569EAA71E9FA57F0018973A /* UserSearchController.swift in Sources */,
 				B52F9A2C2B98246300952C90 /* AppDelegate.swift in Sources */,
 				B569EA901E8FCC920018973A /* SharePhotoController.swift in Sources */,
 				B569EA7F1E82A4DA0018973A /* UserProfileController.swift in Sources */,
@@ -255,6 +270,7 @@
 				B569EA891E8D28610018973A /* PhotoSelectorController.swift in Sources */,
 				B569EA9A1E9666100018973A /* HomePostCell.swift in Sources */,
 				B569EA9F1E97B99A0018973A /* UserProfilePhotoCell.swift in Sources */,
+				B569EAA81E9FA57F0018973A /* UserSearchCell.swift in Sources */,
 				B569EAA21E9CFFF70018973A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
