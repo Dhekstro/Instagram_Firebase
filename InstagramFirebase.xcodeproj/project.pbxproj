@@ -36,6 +36,7 @@
 		B569EAB01EAE27B20018973A /* CustomAnimationPresentor.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAAC1EAE27B10018973A /* CustomAnimationPresentor.swift */; };
 		B569EAB11EAE27B20018973A /* PreviewPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAAD1EAE27B20018973A /* PreviewPhotoContainerView.swift */; };
 		B569EAB21EAE27B20018973A /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAAE1EAE27B20018973A /* CustomAnimationDismisser.swift */; };
+		B569EAB51EB4C02E0018973A /* CommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAB41EB4C02E0018973A /* CommentsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -70,6 +71,7 @@
 		B569EAAC1EAE27B10018973A /* CustomAnimationPresentor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationPresentor.swift; sourceTree = "<group>"; };
 		B569EAAD1EAE27B20018973A /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
 		B569EAAE1EAE27B20018973A /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
+		B569EAB41EB4C02E0018973A /* CommentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +176,7 @@
 			isa = PBXGroup;
 			children = (
 				B569EA981E96660F0018973A /* CommentInputAccessoryView.swift */,
+				B569EAB41EB4C02E0018973A /* CommentsController.swift */,
 				B569EA991E9666100018973A /* HomeController.swift */,
 				B569EA971E96660E0018973A /* HomePostCell.swift */,
 			);
@@ -276,6 +279,7 @@
 				B569EAB21EAE27B20018973A /* CustomAnimationDismisser.swift in Sources */,
 				B569EA751E7D5D5A0018973A /* FirebaseUtils.swift in Sources */,
 				B569EA771E7D5D5A0018973A /* Extensions.swift in Sources */,
+				B569EAB51EB4C02E0018973A /* CommentsController.swift in Sources */,
 				B569EA9B1E9666100018973A /* CommentInputAccessoryView.swift in Sources */,
 				B52F9A302B98246300952C90 /* MainTabBarController.swift in Sources */,
 				B569EAAF1EAE27B20018973A /* CameraController.swift in Sources */,
