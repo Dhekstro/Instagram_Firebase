@@ -37,6 +37,7 @@
 		B569EAB11EAE27B20018973A /* PreviewPhotoContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAAD1EAE27B20018973A /* PreviewPhotoContainerView.swift */; };
 		B569EAB21EAE27B20018973A /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAAE1EAE27B20018973A /* CustomAnimationDismisser.swift */; };
 		B569EAB51EB4C02E0018973A /* CommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAB41EB4C02E0018973A /* CommentsController.swift */; };
+		B569EAB81EB8B5790018973A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAB71EB8B5790018973A /* CommentCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -72,6 +73,7 @@
 		B569EAAD1EAE27B20018973A /* PreviewPhotoContainerView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PreviewPhotoContainerView.swift; sourceTree = "<group>"; };
 		B569EAAE1EAE27B20018973A /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
 		B569EAB41EB4C02E0018973A /* CommentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsController.swift; sourceTree = "<group>"; };
+		B569EAB71EB8B5790018973A /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +177,7 @@
 		B569EA961E9665EB0018973A /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				B569EAB71EB8B5790018973A /* CommentCell.swift */,
 				B569EA981E96660F0018973A /* CommentInputAccessoryView.swift */,
 				B569EAB41EB4C02E0018973A /* CommentsController.swift */,
 				B569EA991E9666100018973A /* HomeController.swift */,
@@ -288,6 +291,7 @@
 				B569EAB01EAE27B20018973A /* CustomAnimationPresentor.swift in Sources */,
 				B569EA9C1E9666100018973A /* HomeController.swift in Sources */,
 				B569EA841E85496D0018973A /* LoginController.swift in Sources */,
+				B569EAB81EB8B5790018973A /* CommentCell.swift in Sources */,
 				B569EAA71E9FA57F0018973A /* UserSearchController.swift in Sources */,
 				B52F9A2C2B98246300952C90 /* AppDelegate.swift in Sources */,
 				B569EA901E8FCC920018973A /* SharePhotoController.swift in Sources */,
