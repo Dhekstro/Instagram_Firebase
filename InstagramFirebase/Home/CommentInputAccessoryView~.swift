@@ -3,7 +3,7 @@
 //  InstagramFirebase
 //
 //  Created by Cláudio Paulo on 1/3/18.
-//  Copyright © 2018 OmegaWare, Lda. All rights reserved.+++++++
+//  Copyright © 2018 OmegaWare, Lda. All rights reserved.
 //
 
 import UIKit
