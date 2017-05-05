@@ -27,8 +27,6 @@ class CommentCell: UICollectionViewCell {
     let textView: UITextView = {
         let textView = UITextView()
         textView.font = UIFont.systemFont(ofSize: 14)
-//        label.numberOfLines = 0
-//        label.backgroundColor = .lightGray
         textView.isScrollEnabled = false
         return textView
     }()
@@ -43,7 +41,6 @@ class CommentCell: UICollectionViewCell {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
-//        backgroundColor = .yellow
         
         addSubview(profileImageView)
         profileImageView.anchor(top: topAnchor, left: leftAnchor, bottom: nil, right: nil, paddingTop: 8, paddingLeft: 8, paddingBottom: 0, paddingRight: 0, width: 40, height: 40)
