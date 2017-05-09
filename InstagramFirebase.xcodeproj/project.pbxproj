@@ -38,6 +38,7 @@
 		B569EAB21EAE27B20018973A /* CustomAnimationDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAAE1EAE27B20018973A /* CustomAnimationDismisser.swift */; };
 		B569EAB51EB4C02E0018973A /* CommentsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAB41EB4C02E0018973A /* CommentsController.swift */; };
 		B569EAB81EB8B5790018973A /* CommentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EAB71EB8B5790018973A /* CommentCell.swift */; };
+		B569EABB1EB8B70F0018973A /* Comment.swift in Sources */ = {isa = PBXBuildFile; fileRef = B569EABA1EB8B70F0018973A /* Comment.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,6 +75,7 @@
 		B569EAAE1EAE27B20018973A /* CustomAnimationDismisser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAnimationDismisser.swift; sourceTree = "<group>"; };
 		B569EAB41EB4C02E0018973A /* CommentsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentsController.swift; sourceTree = "<group>"; };
 		B569EAB71EB8B5790018973A /* CommentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommentCell.swift; sourceTree = "<group>"; };
+		B569EABA1EB8B70F0018973A /* Comment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Comment.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +170,7 @@
 		B569EA921E911ED90018973A /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				B569EABA1EB8B70F0018973A /* Comment.swift */,
 				B569EA931E911EE90018973A /* Post.swift */,
 				B569EAA11E9CFFF70018973A /* User.swift */,
 			);
@@ -280,6 +283,7 @@
 				B569EA8D1E8D28BF0018973A /* PhotoSelectorHeader.swift in Sources */,
 				B569EA8A1E8D28610018973A /* PhotoSelectorCell.swift in Sources */,
 				B569EAB21EAE27B20018973A /* CustomAnimationDismisser.swift in Sources */,
+				B569EABB1EB8B70F0018973A /* Comment.swift in Sources */,
 				B569EA751E7D5D5A0018973A /* FirebaseUtils.swift in Sources */,
 				B569EA771E7D5D5A0018973A /* Extensions.swift in Sources */,
 				B569EAB51EB4C02E0018973A /* CommentsController.swift in Sources */,
